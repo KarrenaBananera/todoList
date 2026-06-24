@@ -1,0 +1,25 @@
+<div class="row mb-4 align-items-end bg-light p-3 rounded shadow-sm">
+    <div class="col-md-3 mb-2 mb-md-0">
+        <label for="statusFilter" class="form-label fw-medium text-secondary">Filter by Status</label>
+        <select class="form-select" id="statusFilter">
+            <option value="All">All</option>
+            <option value="ToDo">To Do</option>
+            <option value="InProgress">In Progress</option>
+            <option value="Done">Done</option>
+        </select>
+    </div>
+    <div class="col-md-3 mb-2 mb-md-0">
+        <label for="sortTasks" class="form-label fw-medium text-secondary">Sort by</label>
+        <select class="form-select" id="sortTasks">
+            <option value="CreatedDesc">Creation Date (Newest)</option>
+            <option value="CreatedAsc">Creation Date (Oldest)</option>
+            <option value="DueAsc">Do Date (Earliest)</option>
+            <option value="DueDesc">Do Date (Latest)</option>
+        </select>
+    </div>
+    <div class="col-md-6 text-md-end">
+        <button type="button" class="btn btn-primary" id="btnCreateTask">
+            <i class="bi bi-plus-lg"></i> Create Task
+        </button>
+    </div>
+</div>
